@@ -31,7 +31,7 @@ class ShoppingListItem extends StatelessWidget {
       color: Colors.black54,
       decoration: TextDecoration.lineThrough,
     );
-  }
+  } //I'm yeeun abc
 
   @override
   Widget build(BuildContext context) {
@@ -73,7 +73,7 @@ class _ShoppingListState extends State<ShoppingList> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Shopping List'),
+        title: Text('Shopping List!'),
       ),
       body: ListView(
         padding: EdgeInsets.symmetric(vertical: 8.0),
