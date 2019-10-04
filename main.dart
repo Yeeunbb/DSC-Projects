@@ -73,7 +73,7 @@ class _ShoppingListState extends State<ShoppingList> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Shopping List!'),
+        title: Text('Yeeun Shopping List!'),
       ),
       body: ListView(
         padding: EdgeInsets.symmetric(vertical: 8.0),
